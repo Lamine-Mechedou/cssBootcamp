@@ -1,0 +1,122 @@
+#title{
+   color:rgb(217, 96, 9);
+   font-weight: 400;
+   font-family: sarabun;
+}
+
+#title:hover{
+    
+    -webkit-transition:all 3s ease;
+    transform:rotate(-180deg);
+
+}
+
+
+
+.subtitle{
+    color:rgb(237, 128, 55);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  
+    font-family: 'Roboto Mono', monospace;
+ 
+  
+}
+#service-image{
+ 
+   height:40em;
+    width:70vm;
+    background: radial-gradient(circle,red 10%,blue 30%,green 30%);
+   
+    border:20px solid rgb(0,8,2);
+    margin-left: 10em;
+   
+
+}
+
+
+
+.link{
+    text-decoration: line-through;
+   
+}
+
+.italics{
+    font-style: italic;
+}
+
+#about-us-image{
+    height:100px;
+    width:30vw;
+    border:6px solid rgb(28,28,28);
+    margin:0 100px;
+    float:right;
+
+
+}
+
+
+
+
+.site-table{
+       display: inline-block;
+}
+
+.grid-container{
+    background: rgb(216, 248, 210);
+    margin: 10px;
+    height: 500px;
+    display: grid; 
+    grid-template-columns: auto auto auto;
+  
+}
+
+.grid-item{
+    color:black;
+    font-size: 25px;
+    width:70px;
+    line-height:40px;
+    margin:10px;
+   text-align: center;
+}
+
+
+
+.button-submit{
+    margin: 20px 20px;
+    padding:10px 15px;
+    border:none;
+    text-decoration: none;
+    font-family: "Lato",sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255,255,255);
+    background: rgb(89,150,255);
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+
+   
+}
+
+
+@keyframes red-to-black{
+                    0% {
+                     background: red;transform:transform:rotate      (-45deg);
+                    }
+                    50%{
+                        background:rgb(221, 207, 235);transform:rotate(-180deg);
+                    }
+                    100% {
+                        background:yellow;transform:transform:rotate(360deg);
+                    }
+}
+
+#about-me:hover{
+    -webkit-animation:red-to-black 4s linear 0s 2 alternate-reverse;
+    -moz-animation:red-to-black 4s linear 0s 2 alternate-reverse;}
+    -ms-animation:red-to-black 4s linear 0s 2 alternate-reverse;
+    -o-animation:red-to-black 4s linear 0s 2 alternate-reverse;
+}
